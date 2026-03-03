@@ -1,0 +1,7 @@
+services:
+  lab2:
+    image: localhost:5000/lab2:v1.0
+    container_name: Task3-pyflask
+    ports:
+      - "8080:5000"
+    restart: always
